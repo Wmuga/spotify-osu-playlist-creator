@@ -1,0 +1,17 @@
+{
+  "name": "spotify-osu-playlist_-reator",
+  "version": "1.0.0",
+  "description": "Creates spotify playlist from your osu! songs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wmuga",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "opn": "^6.0.0",
+    "randomstring": "^1.2.1",
+    "request": "^2.88.2"
+  }
+}
