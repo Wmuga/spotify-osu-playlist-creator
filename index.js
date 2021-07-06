@@ -1,7 +1,6 @@
 const spoty = require('.\\spotify_module.js')
 const options = require('.\\options.json')
 const { readdirSync } = require('fs')
-const { DH_CHECK_P_NOT_PRIME } = require('constants')
 
 const get_directories = source =>
   readdirSync(source, { withFileTypes: true })
